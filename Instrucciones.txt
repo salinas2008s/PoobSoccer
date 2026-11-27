@@ -1,0 +1,19 @@
+javac -d bin src\domain\*.java src\presentation\*.java
+java -cp bin presentation.PoobSoccerGUI
+
+
+Mi repo: samuelsalinasn
+
+Cómo subir un archivo a un repositorio:
+
+Descomprime el .zip y abre una terminal dentro de esa carpeta.
+
+Ejecuta estos comandos uno por uno
+
+Bash
+git init
+git add .
+git commit -m "Subir archivos del proyecto"
+git branch -M main
+git remote add origin https://github.com/samuelsalinasn/PoobSoccer.git
+git push -u origin main
